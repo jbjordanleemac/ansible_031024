@@ -1,0 +1,1040 @@
+[root@g1 ~]# history
+    1  visudo
+    2  diff /etc/sudoers /opt/file_backup_dir/sudoers_orig
+    3  su - g1
+    4  init 0
+    5  hostname -i
+    6  ip a
+    7  cd /opt/
+    8  df -hP
+    9  cd /opt/
+   10  mkdir rundeck_setup
+   11  cd rundeck_setup/
+   12  ls
+   13  init 0
+   14  free -m
+   15  more /proc/cpuinfo
+   16  fdisk -l
+   17  fdisk /dev/sda
+   18  clear
+   19  df -hP
+   20  curl https://bintray.com/rundeckpro/rpm/rpm | sudo tee /etc/yum.repos.d/b                                                                             intray-rundeckpro-rpm.repo
+   21  sudo yum install java rundeckpro-enterprise
+   22  ls -lhrt
+   23  cd /opt/rundeck_setup/
+   24  curl https://bintray.com/rundeckpro/rpm/rpm | sudo tee /etc/yum.repos.d/b                                                                             intray-rundeckpro-rpm.repo
+   25  sudo yum install java rundeckpro-enterprise
+   26  ls
+   27  which rundeck
+   28  df -hP
+   29  systemctl status rundeckd
+   30  systemctl enabler rundeckd
+   31  systemctl enable rundeckd
+   32  systemctl start rundeckd
+   33  systemctl status rundeckd
+   34  ss -tulpn | grep 4440
+   35  lsof -p 13223
+   36  yum install lsof
+   37  lsof -p 13223
+   38  ip a
+   39  systemctl status firewalld
+   40  systemctl status rundeckd
+   41  history
+   42  systemctl stop rundedckd
+   43  systemctl stop rundeckd
+   44  ls -lrht /etc/yum.repos.d/
+   45  date
+   46  cd /etc/yum.repos.d/
+   47  rm bintray-rundeckpro-rpm.repo
+   48  yum remove rundeckpro-enterprise
+   49  cd /opt/rundeck_setup/
+   50  ls
+   51  which rundeck
+   52  df -hP
+   53  which java
+   54  java -versioj
+   55  java -version
+   56  rpm -Uvh https://repo.rundeck.org/latest.rpm
+   57  yum install rundeck
+   58  systemctl status rundeck
+   59  systemctl status rundeckd
+   60  systemctl start rundeckd
+   61  systemctl status rundeckd
+   62  systemctl enable rundeckd
+   63  pgrep rundeckd
+   64  pgrep rundeck
+   65  ss -tulpn | grep 4440
+   66  ps -ef | grep 16896
+   67  ss -tulpn | grep 16896
+   68  ss -tulpn | grep -i list | more
+   69  ip a
+   70  service rundeckd start
+   71  ss -tulpn | grep -i list | more
+   72  tail -f /var/log/rundeck/service.log
+   73  service rundeckd status
+   74  pgrep rundeckd
+   75  pgrep rundeck
+   76  service rundeckd status
+   77  service rundeckd stop
+   78  service rundeckd start
+   79  service rundeckd status
+   80  pgrep rundeckd
+   81  ps -ef | grep rundeckd
+   82  systemctl status httpd
+   83  yum install httpd
+   84  systemctl status httpd
+   85  systemctl start httpd
+   86  systemctl enable httpd
+   87  systemctl status httpd
+   88  service rundeckd stop
+   89  service rundeckd start
+   90  ps -ef | grep rundeckd
+   91  systemctl status firewalld
+   92  ss -tulpn | grep 4440
+   93  systemctl status rundeckd
+   94  historty
+   95  history
+   96  yum install java-1.8.0
+   97  tail -f /var/log/rundeck/service.log
+   98  history
+   99  systemctl status rundeckd
+  100  systemctl status httpd
+  101  systemctl status firewalld
+  102  systemctl stop rundeckd
+  103  rpm -e https://repo.rundeck.org/latest.rpm
+  104  rpm -Uvh https://repo.rundeck.org/latest.rpm
+  105  yum install rundeck
+  106  systemctl start rundeckd
+  107  tail -f /var/log/rundeck/service.log
+  108  ip a
+  109  tail -f /var/log/rundeck/service.log
+  110  history
+  111  rpm -qa --last
+  112  rpm -qa --last | head -10
+  113  service rundeckd stop
+  114  rpm -evv rundeck-3.3.1.20200727-1.noarch
+  115  rpm -e rundeck-3.3.1.20200727-1.noarch
+  116  rpm -qa rundeck
+  117  service httpd stop
+  118  yum uninstall httpd
+  119  yum remove httpd
+  120  history
+  121  yum remove java-1.8.0
+  122  yum list installed | grep -i java
+  123  df -hP
+  124  yum install java-1.8.0
+  125  yum install httpd
+  126  systemctl status httpd
+  127  systemctl start httpd
+  128  systemctl status httpd
+  129  systemctl enable httpd
+  130  systemctl status firewalld
+  131  systemctl disable firewalld
+  132  systemctl status firewalld
+  133  rpm -Uvh https://repo.rundeck.org/latest.rpm
+  134  yum install rundeck
+  135  service rundeckd start
+  136  tail -f /var/log/rundeck/service.log
+  137  pgrep httpd
+  138  pgrep rundeckd
+  139  ss -tulpn | grep 4440
+  140  getent passwd | grep itadmin
+  141  id itadmin
+  142  useradd itadmin
+  143  passwd itadmin
+  144  visudo
+  145  visudo -c
+  146  diff /etc/sudoers /opt/file_backup_dir/sudoers_orig
+  147  init 0
+  148  ip a
+  149  history
+  150  init 0
+  151  id g1
+  152  su - g1
+  153  tail -f /var/log/secure
+  154  ip a
+  155  su - g1
+  156  init 0
+  157  su - g1
+  158  init 0
+  159  cd /etc/ansible
+  160  ls
+  161  cat hosts
+  162  ls
+  163  cat uptime.yml
+  164  vi hostname.yml
+  165  ansible-playbook --ask-vault-pass --list-hosts hostname.yml -e "nodes=g2-                                                                             3"
+  166  vi hostname.yml
+  167  ansible-playbook --ask-vault-pass --list-hosts hostname.yml -e "nodes=g2-                                                                             3"
+  168  ansible-playbook --ask-vault-pass hostname.yml -e "nodes=g2-3"
+  169  su - g1
+  170  init 0
+  171  su - g1
+  172  init 0
+  173  pstree
+  174  yum install pstree
+  175  yum whatprovides pstree
+  176  yum install psmisc*
+  177  which pstree
+  178  pstree
+  179  top
+  180  systemctl status rundeck
+  181  systemctl status rundeckd
+  182  systemctl stop rundeckd
+  183  systemctl disable rundeckd
+  184  systemctl status rundeckd
+  185  systemctl start rundeckd
+  186  systemctl enable rundeckd
+  187  systemctl status rundeckd
+  188  ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -5
+  189  su - g1
+  190  init 0
+  191  pstree
+  192  which git
+  193  su - g1
+  194  init 0
+  195  ip a
+  196  ip a
+  197  ansible -version
+  198  ansible --version
+  199  init 0
+  200  ip a
+  201  cd /etc/ansible/
+  202  ls -lhrt
+  203  cp hosts /opt/file_backup_dir/hosts_031721_backup
+  204  vi hosts
+  205  ls -lhrt | grep hostname
+  206  more hostname.yml
+  207  more v1.yml
+  208  history | grep vault
+  209  ansible-vault view v1.yml
+  210  su - g1
+  211  ls -lhrt
+  212  more hosts
+  213  ls -lhrt
+  214  most hostname.yml
+  215  more hostname.yml
+  216  history | grep vault
+  217  ansible-playbook view v1.yml
+  218  ansible-vault view v1.yml
+  219  ansible-playbook --ask-vault-pass --list-hosts hostname.yml -e "nodes=g2-                                                                             3"
+  220  ansible-playbook --ask-vault-pass hostname.yml -e "nodes=g2-3"
+  221  nslookup g2
+  222  nslookup g1
+  223  pwd
+  224  cd /etc
+  225  cp hosts /opt/file_backup_dir/etc_hosts_031721
+  226  vi hosts
+  227  diff hosts /opt/file_backup_dir/etc_hosts_031721
+  228  nslookup g1
+  229  nslookup g1.attlocal.net
+  230  vi hosts
+  231  diff hosts /opt/file_backup_dir/etc_hosts_031721
+  232  /etc/init.d/nscd restart
+  233  yum list installed | grep nscd
+  234  yum makecache fast
+  235  yum list installed | grep nscd
+  236  yum install nscd
+  237  /etc/init.d/nscd restart
+  238  locate nscd
+  239  yum whatprovides locate
+  240  yum install mlocate
+  241  yum whatprovides locate
+  242  locate nscd
+  243  updatedb
+  244  locate nscd
+  245  /usr/sbin/nscd restart
+  246  /usr/sbin/nscd --help
+  247  nslookup g1
+  248  more /etc/hosts
+  249  more /etc/resolv.conf
+  250  ip a
+  251  nslookup g1.attlocal.net
+  252  more /etc/hosts
+  253  init 6
+  254  nslookup gq
+  255  nslookup g1
+  256  init 0
+  257  nslookup g1
+  258  more /etc/hosts
+  259  cd /etc/ansible/
+  260  history
+  261  cd /etc/ansible/
+  262  ls -lhrt
+  263  more hostname.yml
+  264  cp hosts /opt/file_backup_dir/hosts_031821_backup
+  265  vi hosts
+  266  diff hosts /opt/file_backup_dir/hosts_031821_backup
+  267  more hostname.yml
+  268  ansible-playbook --ask-vault-pass --list-hosts hostname.yml -e "nodes=g2-                                                                             3"
+  269  ansible-playbook --ask-vault-pass hostname.yml -e "nodes=g2-3"
+  270  ls -lrht
+  271  more uptime.yml
+  272  ansible-vault view v1.yml
+  273  clear
+  274  ls -lhrt
+  275  ls -lrht /usr/lib/systemd/system/sshd
+  276  ls -lrht /usr/lib/systemd/system/
+  277  ls /usr/lib/systemd/system/
+  278  ls -lhrt /usr/lib/systemd/system/httpd.service
+  279  ansible-galaxy init roles/BackupSudoers_Role --offline
+  280  ls -lhrt
+  281  date
+  282  ls -lrht roles/
+  283  cd roles/BackupSudoers_Role/
+  284  ls -lhrt
+  285  ls
+  286  cd tasks/
+  287  ls -lhrt
+  288  vi main.yml
+  289  pwd
+  290  cp main.yml backupsudoers.yml
+  291  vi backupsudoers.yml
+  292  pwd
+  293  cd ../files/
+  294  pwd
+  295  more ../tasks/backupsudoers.yml
+  296  pwd
+  297  vi backupsudoers.sh
+  298  chmod +x backupsudoers.sh
+  299  pwd
+  300  cd /etc/ansible/
+  301  vi backupsudoers.yml
+  302  cat backupsudoers.yml
+  303  more roles/BackupSudoers_Role/tasks/main.yml
+  304  more roles/BackupSudoers_Role/tasks/backupsudoers.yml
+  305  more roles/BackupSudoers_Role/files/backupsudoers.sh
+  306  ls -ohrt
+  307  ansible-playbook --ask-vault-pass --list-hosts backupsudoers.yml -e "node                                                                             s=g2-3"
+  308  vi hosts
+  309  ansible-playbook --ask-vault-pass --list-hosts backupsudoers.yml -e "node                                                                             s=g2-3"
+  310  vi roles/BackupSudoers_Role/tasks/main.yml
+  311  ansible-playbook --ask-vault-pass --list-hosts backupsudoers.yml -e "node                                                                             s=g2-3"
+  312  ansible-playbook --ask-vault-pass backupsudoers.yml -e "nodes=g2-3"
+  313  more /etc/ansible/ansible.cfg
+  314  cat /etc/ansible/ansible.cfg | grep -v "#" | more
+  315  clear
+  316  history
+  317  ls -lhrt
+  318  more backupsudoers.yml
+  319  ansible-vault view v1.yml
+  320  more roles/BackupSudoers_Role/tasks/main.yml
+  321  more roles/BackupSudoers_Role/tasks/backupsudoers.yml
+  322  more roles/BackupSudoers_Role/files/backupsudoers.sh
+  323  ansible-galaxy init roles/ExtrasudoerslineAdding_Role --offline
+  324  cd roles/ExtrasudoerslineAdding_Role/tasks/
+  325  ls -lhrt
+  326  vi main.yml
+  327  cat main.yml
+  328  pwd
+  329  cp main.yml extrasudoerslineadding.yml
+  330  vi extrasudoerslineadding.yml
+  331  pwd
+  332  cd /etc/ansible/
+  333  vi extrasudoerslineadding.yml
+  334  cat extrasudoerslineadding.yml
+  335  cat roles/ExtrasudoerslineAdding_Role/tasks/main.yml
+  336  cat roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslineadding.yml
+  337  ls -lhrt | tail -2
+  338  ansible-playbook --ask-vault-pass --list-hosts extrasudoerslineadding.yml                                                                              -e "nodes=g2-3"
+  339  vi /etc/ansible/roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslinea                                                                             dding.yml
+  340  ansible-playbook --ask-vault-pass --list-hosts extrasudoerslineadding.yml                                                                              -e "nodes=g2-3"
+  341  ansible-playbook --ask-vault-pass extrasudoerslineadding.yml -e "nodes=g2                                                                             -3"
+  342  vi /etc/ansible/roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslinea                                                                             dding.yml
+  343  ansible-playbook --ask-vault-pass extrasudoerslineadding.yml -e "nodes=g2                                                                             -3"
+  344  vi /etc/ansible/roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslinea                                                                             dding.yml
+  345  ansible-playbook --ask-vault-pass extrasudoerslineadding.yml -e "nodes=g2                                                                             -3"
+  346  ls -lrht | tail -2
+  347  more extrasudoerslineadding.yml
+  348  more roles/ExtrasudoerslineAdding_Role/tasks/main.yml
+  349  more roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslineadding.yml
+  350  ls /usr/lib/systemd/system/
+  351  ls /usr/lib/systemd/system/httpd.service
+  352  ls /usr/lib/systemd/system/sshd.service
+  353  vi status_httpd_sshd.yml
+  354  mv status_httpd_sshd.yml status_sshd_firewalld.yml
+  355  vi status_sshd_firewalld.yml
+  356  cat status_sshd_firewalld.yml
+  357  ansible-galaxy init roles/Sshd_Role --offline
+  358  cat roles/Sshd_Role/tasks/main.yml
+  359  cat roles/Sshd_Role/tasks/main.
+  360  vi roles/Sshd_Role/tasks/main.yml
+  361  cat roles/Sshd_Role/tasks/main.yml
+  362  cp roles/Sshd_Role/tasks/main.yml roles/Sshd_Role/tasks/sshd_status_check                                                                             .yml
+  363  vi roles/Sshd_Role/tasks/sshd_status_check.yml
+  364  ansible-galaxy init roles/Firewalld_Role --offline
+  365  cat roles/Firewalld_Role/tasks/main.yml
+  366  vi roles/Firewalld_Role/tasks/main.yml
+  367  cat roles/Firewalld_Role/tasks/main.yml
+  368  cp roles/Firewalld_Role/tasks/main.yml roles/Firewalld_Role/tasks/firewal                                                                             ld_status_check.yml
+  369  vi roles/Firewalld_Role/tasks/firewalld_status_check.yml
+  370  cat roles/Firewalld_Role/tasks/firewalld_status_check.yml
+  371  ls -lrht
+  372  cat status_sshd_firewalld.yml
+  373  cat roles/Sshd_Role/tasks/main.yml
+  374  cat roles/Sshd_Role/tasks/sshd_status_check.yml
+  375  cat roles/Firewalld_Role/tasks/main.yml
+  376  cat roles/Firewalld_Role/tasks/firewalld_status_check.yml
+  377  history | tail -50
+  378  ls -lhrt
+  379  ansible-playbook --ask-vault-pass --list-hosts 414  more roles/Extrasudoe                                                                             rslineAdding_Role/tasks/main.yml
+  380    415  more roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslineaddin                                                                             g.yml
+  381    416  ls /usr/lib/systemd/system/
+  382    417  ls /usr/lib/systemd/system/httpd.service
+  383    418  ls /usr/lib/systemd/system/sshd.service
+  384    419  vi status_httpd_sshd.yml
+  385    420  mv status_httpd_sshd.yml status_sshd_firewalld.yml
+  386    421  vi status_sshd_firewalld.yml
+  387    422  cat status_sshd_firewalld.yml
+  388    423  ansible-galaxy init roles/Sshd_Role --offline
+  389    424  cat roles/Sshd_Role/tasks/main.yml
+  390    425  cat roles/Sshd_Role/tasks/main.
+  391    426  vi roles/Sshd_Role/tasks/main.yml
+  392    427  cat roles/Sshd_Role/tasks/main.yml
+  393    428  cp roles/Sshd_Role/tasks/main.yml roles/Sshd_Role/tasks/sshd_statu                                                                             s_check.yml
+  394    429  vi roles/Sshd_Role/tasks/sshd_status_check.yml
+  395    430  ansible-galaxy init roles/Firewalld_Role --offline
+  396    431  cat roles/Firewalld_Role/tasks/main.yml
+  397    432  vi roles/Firewalld_Role/tasks/main.yml
+  398    433  cat roles/Firewalld_Role/tasks/main.yml
+  399    434  cp roles/Firewalld_Role/tasks/main.yml roles/Firewalld_Role/tasks/                                                                             firewalld_status_check.yml
+  400    435  vi roles/Firewalld_Role/tasks/firewalld_status_check.yml
+  401    436  cat roles/Firewalld_Role/tasks/firewalld_status_check.yml
+  402    437  ls -lrht
+  403    438  cat status_sshd_firewalld.yml
+  404    439  cat roles/Sshd_Role/tasks/main.yml
+  405    440  cat roles/Sshd_Role/tasks/sshd_status_check.yml
+  406    441  cat roles/Firewalld_Role/tasks/main.yml
+  407    442  cat roles/Firewalld_Role/tasks/firewalld_status_check.yml
+  408    443  history | tail -50
+  409  [root@g1 ansible]#
+  410  ls -lhrt
+  411  ansible-playbook --ask-vault-pass --list-hosts status_sshd_firewalld.yml                                                                              -e "nodes=g2-3"
+  412  ansible-playbook --ask-vault-pass status_sshd_firewalld.yml -e "nodes=g2-                                                                             3"
+  413  history | tail -5
+  414  init 0
+  415  cd /etc/ansible/
+  416  ls -lhrt
+  417  more status_sshd_firewalld.yml
+  418  more extrasudoerslineadding.yml
+  419  more roles/ExtrasudoerslineAdding_Role/tasks/main.yml
+  420  more roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslineadding.yml
+  421  cd extrasudoerslineadding.yml
+  422  ---
+  423  cd roles/ExtrasudoerslineAdding_Role/tasks/
+  424  ls -lhrt
+  425  cp extrasudoerslineadding.yml extrasudoerslineadding_orig.yml
+  426  vi extrasudoerslineadding.yml
+  427  diff extrasudoerslineadding.yml extrasudoerslineadding_orig.yml
+  428  pwd
+  429  cd /etc/ansible/
+  430  ls -olhrt
+  431  more extrasudoerslineadding.yml
+  432  more roles/ExtrasudoerslineAdding_Role/tasks/main.yml
+  433  more roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslineadding
+  434  more roles/ExtrasudoerslineAdding_Role/tasks/extrasudoerslineadding.yml
+  435  ansible-playbook --ask-vault-pass --list-hosts extrasudoerslineadding.yml                                                                              -e "nodes=g2-3"
+  436  ansible-playbook --ask-vault-pass extrasudoerslineadding.yml -e "nodes=g2                                                                             -3"
+  437  nslookup g1
+  438  vi hosts
+  439  diff hosts /opt/file_backup_dir/hosts_031821_backup
+  440  ls -lhkrt
+  441  ansible-playbook --ask-vault-pass --list-hosts status_sshd_firewalld.yml                                                                              -e "nodes=g2-3"
+  442  ansible-playbook --ask-vault-pass status_sshd_firewalld.yml -e "nodes=g2-                                                                             3"
+  443  ls -lrht
+  444  vi replaceline.yml
+  445  init 0
+  446  cd /etc/ansible/
+  447  ls -lhrt
+  448  vi replaceline.yml
+  449  cat replaceline.yml
+  450  ansible-playbook --ask-vault-pass --list-hosts replaceline.yml -e "nodes=                                                                             g2-3"
+  451  ansible-playbook --ask-vault-pass replaceline.yml -e "nodes=g2-3"
+  452  init 0
+  453  cd /etc/ansible/
+  454  ls -lkhrt
+  455  more replaceline.yml
+  456  nslookup g1
+  457  vi hosts
+  458  diff hosts /opt/file_backup_dir/hosts_031821_backup
+  459  vi hosts
+  460  ls -lhrt
+  461  more replaceline.yml
+  462  ansible g2-3 -u itadmin -b -k -K -a "hostname"
+  463  ansible g2-3 -m raw -u itadmin -b -k -K -a "hostname"
+  464  more replaceline.yml
+  465  ansible -version
+  466  ansible -v
+  467  ansible --version
+  468  init 0
+  469  cd /etc/ansible/
+  470  ls -lhrt
+  471  more replaceline.yml
+  472  ansible-playbook --ask-vault-pass --list-hosts replaceline.yml -e "nodes=                                                                             g2-3"
+  473  ansible-playbook --ask-vault-pass replaceline.yml -e "nodes=g2-3"
+  474  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_orig
+  475  ls -lhrt
+  476  cp replaceline.yml insertextraline.yml
+  477  vi insertextraline.yml
+  478  more insertextraline.yml
+  479  ansible-playbook --ask-vault-pass --list-hosts insertextraline.yml -e "no                                                                             des=g2-3"
+  480  ansible-playbook --ask-vault-pass insertextraline.yml -e "nodes=g2-3"
+  481  more insertextraline.yml
+  482  vi insertextraline.yml
+  483  more insertextraline.yml
+  484  ansible-playbook --ask-vault-pass insertextraline.yml -e "nodes=g2-3"
+  485  vi insertextraline.yml
+  486  ansible-playbook --ask-vault-pass insertextraline.yml -e "nodes=g2-3"
+  487  cat insertextraline.yml
+  488  ls -lhrt
+  489  cat backupsudoers.yml
+  490  more roles/BackupSudoers_Role/tasks/main.yml
+  491  more roles/BackupSudoers_Role/tasks/backupsudoers.yml
+  492  more roles/BackupSudoers_Role/files/backupsudoers.sh
+  493  vi google_group.sh
+  494  chmod +x google_group.sh
+  495  cat google_group.sh
+  496  vi info_search.yml
+  497  cat info_search.yml
+  498  ansible-galaxy init roles/InfoSearch_Role --offline
+  499  cd roles/InfoSearch_Role/tasks/
+  500  pwd
+  501  ls -lrht
+  502  cp main.yml info_search.yml
+  503  vi main.yml
+  504  cat main.yml
+  505  vi info_search.yml
+  506  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=hostname"
+  507  vi +4 info_search.yml
+  508  vi info_search.yml
+  509  pwd
+  510  vi main.yml
+  511  ls
+  512  pwd
+  513  cd /etc/ansible/
+  514  ls -lhrt
+  515  cat info_search.yml
+  516  cat roles/InfoSearch_Role/tasks/main.yml
+  517  cat roles/InfoSearch_Role/tasks/info_search.yml
+  518  which hostname
+  519  ansible-playbook --ask-vault-pass --list-hosts -e "nodes=g2-3 cmd=/usr/bi                                                                             n/hostname"
+  520  ansible-playbook --ask-vault-pass --list-hosts -e "nodes=g2-3 cmd=hostnam                                                                             e"
+  521  ls -lrht
+  522  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=hostname"
+  523  ls -lrht
+  524  vi +9 info_search.yml
+  525  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=hostname"
+  526  vi +9 info_search.yml
+  527  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=hostname"
+  528  vi +9 info_search.yml
+  529  ls -lhrt
+  530  more info_search.yml
+  531  more roles/InfoSearch_Role/tasks/main.yml
+  532  more roles/InfoSearch_Role/tasks/info_search.yml
+  533  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=hostname"
+  534  vi +9 info_search.yml
+  535  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=hostname"
+  536  vi +9 info_search.yml
+  537  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=hostname"
+  538  vi +9 info_search.yml
+  539  more info_search.yml
+  540  more roles/InfoSearch_Role/tasks/main.yml
+  541  more roles/InfoSearch_Role/tasks/info_search.yml
+  542  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=uptime"
+  543  vi hosts
+  544  vi +9 info_search.yml
+  545  ansible-playbook --ask-vault-pass --list-hosts info_search.yml -e "nodes=                                                                             g2-3 cmd=uptime"
+  546  ansible-playbook --ask-vault-pass info_search.yml -e "nodes=g2-3 cmd=upti                                                                             me"
+  547  ls -lhrt
+  548  more google_group.sh
+  549  ./google_group.sh g2-3 hostname
+  550  vi google_group.sh
+  551  ./google_group.sh g2-3 hostname
+  552  cat google_group.sh
+  553  cat info_search.yml
+  554  cat roles/InfoSearch_Role/tasks/main.yml
+  555  cat roles/InfoSearch_Role/tasks/info_search.yml
+  556  ansible-playbook --ask-vault-pass info_search.yml -e "nodes=g2-3 hostname                                                                             "
+  557  ansible-playbook --ask-vault-pass info_search.yml -e "nodes=g2-3 cmd=host                                                                             name"
+  558  init 0
+  559  cd /etc/ansible/
+  560  vi ansible_facts.yml
+  561  ansible g2-3 -m setup
+  562  ansible g2-3 -m setup -u itadmin -b -k -K
+  563  ls 0-lrht
+  564  ls -lhrt
+  565  more ansible_facts.yml
+  566  ansible-playbook --ask-vault-pass --list-hosts ansible_facts.yml -e "node                                                                             s=g2-3"
+  567  ansible-playbook --ask-vault-pass ansible_facts.yml -e "nodes=g2-3"
+  568  more ansible_facts.yml
+  569  vi when_ansible_facts_debug_var_result_032421.yml
+  570  more when_ansible_facts_debug_var_result_032421.yml
+  571  ansible-playbook --ask-vault-pass --list-hosts when_ansible_facts_debug_v                                                                             ar_result_032421.yml -e "nodes=g2-3"
+  572  ansible-playbook --ask-vault-pass when_ansible_facts_debug_var_result_032                                                                             421.yml -e "nodes=g2-3"
+  573  ansible --version
+  574  python -version
+  575  python --version
+  576  ls -lhrt
+  577  more when_ansible_facts_debug_var_result_032421.yml
+  578  vi ansible_facts2.yml
+  579  ansible-playbook --ask-vault-pass --list-hosts ansible_facts2.yml -e "nod                                                                             es=g2-3"
+  580  ansible-playbook --ask-vault-pass ansible_facts2.yml -e "nodes=g2-3"
+  581  init 0
+  582  cd /etc/ansible/
+  583  ls -lhrt
+  584  ansible-galaxy init roles/Java180openjdkloading_Role --offline
+  585  cd roles/Java180openjdkloading_Role/
+  586  ls
+  587  cd tasks/
+  588  ls
+  589  cp main.yml java180jdkloading.yml
+  590  vi main.yml
+  591  cat main.yml
+  592  mv java180jdkloading.yml java180openjdkloading.yml
+  593  vi java180openjdkloading.yml
+  594  vi fetchfilefromremotenode.yml
+  595  pwd
+  596  mv fetchfilefromremotenode.yml /etc/ansible/
+  597  cd /etc/ansible/
+  598  ls -lhrt
+  599  more fetchfilefromremotenode.yml
+  600  ansible-playbook --ask-vault-pass --list-hosts g2, fetchfilefromremotenod                                                                             e.yml -e "nodes=g2"
+  601  ansible-playbook --ask-vault-pass --list-hosts g2, fetchfilefromremotenod                                                                             e.yml -e "nodes=g2-3"
+  602  ansible-playbook --ask-vault-pass --list-hosts -i g2, fetchfilefromremote                                                                             node.yml -e "nodes=g2"
+  603  ansible-playbook --ask-vault-pass -i g2, fetchfilefromremotenode.yml -e "                                                                             nodes=g2"
+  604  ls -lrht files/ | tail -5
+  605  ls -lrht
+  606  vi folderpermissionfix.yml
+  607  mv folderpermissionfix.yml folderpermissionadjustment.yml
+  608  vi folderpermissionadjustment.yml
+  609  cat folderpermissionadjustment.yml
+  610  ansible-playbook --ask-vault-pass --list-hosts -i g2, folderpermissionadj                                                                             ustment.yml -e "nodes=g2"
+  611  ansible-playbook --ask-vault-pass -i g2, folderpermissionadjustment.yml -                                                                             e "nodes=g2"
+  612  vi howtomount.yml
+  613  cat howtomount.yml
+  614  ansible --version
+  615  vi howtomount.yml
+  616  init 0
+  617  cd /etc/ansible/
+  618  ls -lhrt
+  619  vi adduser.yml
+  620  vi addgroup.yml
+  621  more addgroup.yml
+  622  ansible-playbook --ask-vault-pass --list-hosts addgroup.yml -e "nodes=g2-                                                                             3"
+  623  ansible-playbook --ask-vault-pass addgroup.yml -e "nodes=g2-3"
+  624  more addgroup.yml
+  625  cp addgroup.yml delgroup.yml
+  626  vi delgroup.yml
+  627  diff addgroup.yml delgroup.yml
+  628  ansible-playbook --ask-vault-pass delgroup.yml -e "nodes=g2-3"
+  629  cat delgroup.yml
+  630  vi enable_and_start_daemon.yml
+  631  vi yum_install_mlocate.yml
+  632  cat yum_install_mlocate.yml
+  633  ansible-playbook --ask-vault-pass --list-hosts -i g3, yum_install_mlocate                                                                             .yml -e "nodes=g3"
+  634  ansible-playbook --ask-vault-pass -i g3, yum_install_mlocate.yml -e "node                                                                             s=g3"
+  635  cat yum_install_mlocate.yml
+  636  init 0
+  637  ls -lhrt
+  638  cd /etc/ansible/
+  639  ls -lhrt
+  640  vi adduser.yml
+  641  cat adduser.yml
+  642  vi adduser.yml
+  643  cat adduser.yml
+  644  ls -lrht
+  645  ping g3
+  646  ssh root@192.168.1.134
+  647  ls -lhrt
+  648  cat adduser.yml
+  649  cat addgroup.yml
+  650  ansible-playbook --ask-vault-pass --list-hosts -i g3, addgroup.yml -e "no                                                                             des=g2-3"
+  651  ansible-playbook --ask-vault-pass --list-hosts -i g3, addgroup.yml -e "no                                                                             des=g3"
+  652  ansible-playbook --ask-vault-pass -i g3, addgroup.yml -e "nodes=g3"
+  653  ls -lhrt
+  654  cat adduser.yml
+  655  ansible-playbook --ask-vault-pass --list-hosts -i g3, adduser.yml -e "nod                                                                             es=g3"
+  656  ansible-playbook --ask-vault-pass -i g3, adduser.yml -e "nodes=g3"
+  657  vi adduser.yml
+  658  ansible-playbook --ask-vault-pass -i g3, adduser.yml -e "nodes=g3"
+  659  cat adduser.yml
+  660  ls -lhrt
+  661  vi createfolder.yml
+  662  cat createfolder.yml
+  663  ansible-playbook --ask-vault-pass --list-hosts -i g3, createfolder.yml -e                                                                              "nodes=g3"
+  664  ansible-playbook --ask-vault-pass -i g3, createfolder.yml -e "nodes=g3"
+  665  cat createfolder.yml
+  666  vi copyfile.yml
+  667  cat copyfile.yml
+  668  vi files/junkcopy
+  669  cat files/junkcopy
+  670  ansible-playbook --ask-vault-pass --list-hosts -i g3, copyfile.yml -e "no                                                                             des=g3"
+  671  ansible-playbook --ask-vault-pass -i g3, copyfile.yml -e "nodes=g3"
+  672  cat files/junkcopy
+  673  vi copyfile.yml
+  674  ansible-playbook --ask-vault-pass -i g3, copyfile.yml -e "nodes=g3"
+  675  cat copyfile.yml
+  676  vi folderpermissionownermodify.yml
+  677  cat folderpermissionownermodify.yml
+  678  ansible-playbook --ask-vault-pass --list-hosts -i g3, folderpermissionown                                                                             ermodify.yml -e "nodes=g3"
+  679  ansible-playbook --ask-vault-pass -i g3, folderpermissionownermodify.yml                                                                              -e "nodes=g3"
+  680  cat folderpermissionownermodify.yml
+  681  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_orig
+  682  grep interpreter_python ansible.cfg
+  683  vi ansible.cfg
+  684  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_orig
+  685  vi ansible.cfg
+  686  cp ansible.cfg /opt/file_backup_dir/ansible.cfg_032621
+  687  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_orig
+  688  vi ansible.cfg
+  689  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_032621
+  690  ansible-playbook --ask-vault-pass -i g3, folderpermissionownermodify.yml                                                                              -e "nodes=g3"
+  691  init 0
+  692  vi /tmp/list
+  693  cat /tmp/list
+  694  for a in `cat /tmp/list`; do du -sm . $a;done
+  695  cd /var
+  696  du -sm * | sort -rn | head -5
+  697  cd cache
+  698  du -sm * | sort -rn | head -5
+  699  cd yum
+  700  du -sm * | sort -rn | head -5
+  701  cd x86_64/
+  702  du -sm * | sort -rn | head -5
+  703  cd /etc/ansible/
+  704  ls -lhrt
+  705  more hostname.yml
+  706  ls -lhrt
+  707  vi ghostlist
+  708  cat ghostlist
+  709  vi disk_usage_check_for_g_host.sh
+  710  vi disk_usage_check.yml
+  711  cat disk_usage_check.yml
+  712  ansible-playbook --ask-vault-pass --list-hosts disk_usage_check.yml -e "n                                                                             odes=g2-3"
+  713  ansible-playbook --ask-vault-pass disk_usage_check.yml -e "nodes=g2-3"
+  714  vi disk_usage_check.yml
+  715  ansible-playbook --ask-vault-pass disk_usage_check.yml -e "nodes=g2-3"
+  716  cat disk_usage_check.yml
+  717  ls -lhrt
+  718  more disk_usage_check_for_g_host.sh
+  719  sh -x disk_usage_check_for_g_host.sh
+  720  vi disk_usage_check_for_g_host.sh
+  721  sh -x disk_usage_check_for_g_host.sh
+  722  vi disk_usage_check_for_g_host.sh
+  723  sh -x disk_usage_check_for_g_host.sh
+  724  vi disk_usage_check_for_g_host.sh
+  725  sh -x disk_usage_check_for_g_host.sh
+  726  cat disk_usage_check_for_g_host.sh
+  727  ls -lhrt | grep fafct
+  728  ls -lhrt | grep fact
+  729  more when_ansible_facts_debug_var_result_032421.yml
+  730  ls -lhrt | grep fact
+  731  more ansible_facts
+  732  more ansible_facts.yml
+  733  ansible-playbook --ask-vault-pass --list-hosts -i g2, ansible_facts.yml -                                                                             e "nodes=g2"
+  734  ansible-playbook --ask-vault-pass -i g2, ansible_facts.yml -e "nodes=g2"
+  735  ls -lhrt | grep fact
+  736  cp when_ansible_facts_debug_var_result_032421.yml when_python_version_mat                                                                             ch_fact.yml
+  737  vi when_python_version_match_fact.yml
+  738  cat when_python_version_match_fact.yml
+  739  vi when_python_version_match_fact.yml
+  740  cat when_python_version_match_fact.yml
+  741  ansible-playbook --ask-vault-pass --list-hosts when_python_version_match_                                                                             fact.yml -e "nodes=g2-3"
+  742  ansible-playbook --ask-vault-pass when_python_version_match_fact.yml -e "                                                                             nodes=g2-3"
+  743  vi when_python_version_match_fact.yml
+  744  ansible-playbook --ask-vault-pass when_python_version_match_fact.yml -e "                                                                             nodes=g2-3"
+  745  vi when_python_version_match_fact.yml
+  746  ansible-playbook --ask-vault-pass when_python_version_match_fact.yml -e "                                                                             nodes=g2-3"
+  747  vi when_python_version_match_fact.yml
+  748  ansible-playbook --ask-vault-pass when_python_version_match_fact.yml -e "                                                                             nodes=g2-3"
+  749  vi when_python_version_match_fact.yml
+  750  cat when_python_version_match_fact.yml
+  751  ansible-playbook --ask-vault-pass when_python_version_match_fact.yml -e "                                                                             nodes=g2-3"
+  752  vi when_python_version_match_fact.yml
+  753  cat when_python_version_match_fact.yml
+  754  ansible-playbook --ask-vault-pass when_python_version_match_fact.yml -e "                                                                             nodes=g2-3"
+  755  init 0
+  756  cd /etc/ansible/
+  757  ls -lrht
+  758  more when_python_version_match_fact.yml
+  759  ls -lrht | grep fact
+  760  more ansible_facts
+  761  more ansible_facts.yml
+  762  ansible-playbook --ask-vault-pass --list-hosts ansible_facts.yml -e "node                                                                             s=g2-3"
+  763  ansible-playbook --ask-vault-pass ansible_facts.yml -e "nodes=g2-3"
+  764  clear
+  765  vi when_condition_facts_debug.yml
+  766  cat when_condition_facts_debug.yml
+  767  ansible-playbook --ask-vault-pass --list-hosts when_condition_facts_debug                                                                             .yml -e "nodes=g2-3"
+  768  ansible-playbook --ask-vault-pass when_condition_facts_debug.yml -e "node                                                                             s=g2-3"
+  769  cp when_condition_facts_debug.yml when_condition_facts_debug2.yml
+  770  vi when_condition_facts_debug2.yml
+  771  cat when_condition_facts_debug2.yml
+  772  ansible-playbook --ask-vault-pass --list-hosts when_condition_facts_debug                                                                             2.yml -e "nodes=g2-3"
+  773  ansible-playbook --ask-vault-pass when_condition_facts_debug2.yml -e "nod                                                                             es=g2-3"
+  774  ls -lhrt | grep google
+  775  more google_group.sh
+  776  more info_search.yml
+  777  more roles/InfoSearch_Role/tasks/main.yml
+  778  more roles/InfoSearch_Role/tasks/info_search.yml
+  779  pwd
+  780  cd /opt/file_backup_dir/
+  781  ls
+  782  ls -lhrt
+  783  pwd
+  784  df -hP
+  785  tar cvzf -C /tmp/filebackupdir.tgz /opt/file_backup_dir
+  786  ls -lhrt
+  787  rm -C
+  788  rm "-C"
+  789  rm ./-C
+  790  ls -lhrt
+  791  tar -cvzf ansiblecfg032621.tgz ansible.cfg_032621
+  792  ls -lhrt
+  793  zmore ansiblecfg032621.tgz
+  794  more ansiblecfg032621.tgz
+  795  clear
+  796  pwd
+  797  ls -lhrt
+  798  df -hP
+  799  rm ansiblecfg032621.tgz
+  800  pwd
+  801  ls -lhrt
+  802  tar -cvzf filebackupdir.tgz /opt/file_backup_dir
+  803  ls -lhrt
+  804  zmore filebackupdir.tgz
+  805  ls -lhrt
+  806  rm filebackupdir.tgz
+  807  ls -lhrt
+  808  tar -cvzf filebackupdir2.tgz /opt/file_backup_dir
+  809  ls -lhrt
+  810  zview filebackupdir2.tgz
+  811  zmore filebackupdir2.tgz
+  812  ls -rlht
+  813  tar -tvf filebackupdir2.tgz
+  814  tar -tvfW filebackupdir2.tgz
+  815  ls -lhrt
+  816  tar xvzf filebackupdir2.tgz -C /tmp/
+  817  cd /tmp
+  818  ls -lhrt
+  819  cd opt/
+  820  ls -lhrt
+  821  cd file_backup_dir/
+  822  ls -lhrt
+  823  pwd
+  824  init 0
+  825  cd /etc/ansible/
+  826  ls -lhrt
+  827  pwd
+  828  echo "# total ansible playbook awesome examples 033021" >> README.md
+  829  git config --list
+  830  ls lrhta
+  831  ls -lhrta
+  832  git init
+  833  ls -lhrta
+  834  git remote show
+  835  git config --list
+  836  git branch -a
+  837  git branch -vv
+  838  git branch --help
+  839  git remote add origin https://github.com/jbjordanleemac/total_ansible_pla                                                                             ybook_examples_033021.git
+  840  git branch -a
+  841  git branch -vv
+  842  git add .
+  843  git status
+  844  git commit -m 'adding all ansible playbook content files 033021 0222pm'
+  845  git status
+  846  git branch -a
+  847  git branch -vv
+  848  git push origin master
+  849  git config --list
+  850  git config --help
+  851  git config --global --help
+  852  git config --list
+  853  git config --global user.name "jbjordanleemac"
+  854  git config --global user.email jbjordanleemac@gmail.com
+  855  git config --list
+  856  git remote show
+  857  more ~/.gitconfig
+  858  ls -lrhta
+  859  cd .git
+  860  ls -lhrta
+  861  ls refs/
+  862  ls refs/heads/
+  863  more refs/heads/master
+  864  git branch -a
+  865  git branch -vv
+  866  git status
+  867  pwd
+  868  cd ..
+  869  pwd
+  870  git status
+  871  git log --oneline --decorate --graph --all
+  872  git diff
+  873  git diff --staged
+  874  init 0
+  875  cd /etc/ansible/
+  876  ls -lhrt | grep google
+  877  more google_group.sh
+  878  cp google_group.sh google.sh
+  879  vi google
+  880  vi google.sh
+  881  cat google.sh
+  882  ansible-playbook --ask-vault-pass -i g2, info_search.yml -e "nodes=g2 cmd                                                                             ='hostname -i'"
+  883  ./google.sh g2 'hostname -i'
+  884  ./google.sh g2 hostname -i
+  885  more google.sh
+  886  ansible-playbook --ask-vault-pass -i g2, info_search.yml -e "nodes=g2 cmd                                                                             ='hostname -i'"
+  887  more info_search.yml
+  888  more roles/InfoSearch_Role/tasks/main.yml
+  889  more roles/InfoSearch_Role/tasks/info_search.yml
+  890  ip a
+  891  cd /etc/ansible/
+  892  ls -lhrt
+  893  ls -lhrt | wc -l
+  894  ls -lhrt | morme
+  895  ls -lhrt | more
+  896  more uptime.yml
+  897  more v1.yml
+  898  ls
+  899  more google.sh
+  900  more info_search.yml
+  901  ansible vault-view v1.yml
+  902  ansible --vault-view v1.yml
+  903  ansible-vault view v1.yml
+  904  diff /etc/sudoers /opt/file_backup_dir/sudoers_orig
+  905  ls -lrht | grep hostname
+  906  more hostname.yml
+  907  ansible-playbook --ask-vault-pass -i g2, info_search.yml -e "nodes=g2 cmd                                                                             =`hostname -i`"
+  908  more /etc/hosts
+  909  nslookup g2
+  910  ip a
+  911  diff /etc/hosts /opt/file_backup_dir/hosts*
+  912  cp /etc/hosts /opt/file_backup_dir/hosts_123121
+  913  vi /etc/hosts
+  914  diff /etc/hosts /opt/file_backup_dir/hosts_123121
+  915  nslookup f1
+  916  nslookup g1
+  917  nslookup g2
+  918  nslookup g3
+  919  ansible-playbook --ask-vault-pass -i g2, info_search.yml -e "nodes=g2 cmd                                                                             =`hostname -i`"
+  920  which hostname
+  921  ansible-playbook --ask-vault-pass -i g2, info_search.yml -e "nodes=g2 cmd                                                                             =/usr/bin/hostname -i`"
+  922  hostname -i
+  923  ansible-playbook --ask-vault-pass -i g2, info_search.yml -e "nodes=g2 cmd                                                                             ='hostname -i'"
+  924  more info_search.yml
+  925  ls -ld roles/
+  926  ls -lhrt roles/
+  927  ls -lhrt roles/InfoSearch_Role/
+  928  ls -lhrt roles/InfoSearch_Role/files/
+  929  ls -lhrt roles/InfoSearch_Role/tasks/
+  930  more roles/InfoSearch_Role/tasks/main.yml
+  931  more roles/InfoSearch_Role/tasks/info_search.yml
+  932  ls -lrht | grep host
+  933  more hosts
+  934  ls -lhrt | grep google
+  935  more google.sh
+  936  ./google.sh g2 uptimme
+  937  ./google.sh g2 uptime
+  938  ./google.sh g2 'hostname -i'
+  939  ansible -v
+  940  ansible -version
+  941  ansible --version
+  942  date
+  943  ls -lrht | grep disk
+  944  more disk_usage_check.yml
+  945  ansible-playbook --ask-vault-pass -i g2, disk_usage_check.yml -e "nodes=g                                                                             2"
+  946  ansible-playbook --ask-vault-pass --list-hosts -i g2, disk_usage_check.ym                                                                             l -e "nodes=g2"
+  947  ls -lhrt
+  948  ls -lhrt | grep yum
+  949  more yum_install_mlocate.yml
+  950  more ansible.cfg
+  951  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_
+  952  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_*
+  953  ls -lhrt /opt/file_backup_dir/ansible.cfg*
+  954  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_orig
+  955  init 0
+  956  ip a
+  957  cd /etc/ansible/
+  958  ls
+  959  more hostname.yml
+  960  history | grep -i vault
+  961  history | grep -i vault | more
+  962  history | grep -i vault | grep view
+  963  ansible-vault view v1.yml
+  964  more hostname.yml
+  965  diff ansible.cfg /opt/file_backup_dir/ansible.cfg_orig
+  966  ls
+  967  init 0
+  968  ip a
+  969  su - g1
+  970  init 0
+  971  history
+  972  su - g1
+  973  init 0
+  974  ip a
+  975  su - g1
+  976  init 0
+  977  ip a
+  978  history
+  979  cd /etc/ansible/
+  980  ls
+  981  ls -lhrt | grep usage
+  982  more disk_usage_check.yml
+  983  init 0
+  984  su - g1
+  985  init 0
+  986  clear
+  987  exit
+  988  su - g1
+  989  hostname -i
+  990  ip a
+  991  su - g1
+  992  init 0
+  993  ip a
+  994  cd /etc/ansible/
+  995  ls
+  996  more google.sh
+  997  more info_search.yml
+  998  more disk_usage_check.yml
+  999  init 0
+ 1000  history
+[root@g1 ~]# ls
+anaconda-ks.cfg
+[root@g1 ~]# cd /etc/ansible/
+[root@g1 ansible]# ls
+addgroup.yml        disk_usage_check_for_g_host.sh   google_group.sh      roles
+adduser.yml         disk_usage_check.yml             google.sh            status_sshd_firewalld.yml
+ansible.cfg         enable_and_start_daemon.yml      hostname.yml         uptime.yml
+ansible_facts2.yml  extrasudoerslineadding.yml       hosts                v1.yml
+ansible_facts.yml   fetchfilefromremotenode.yml      howtomount.yml       when_ansible_facts_debug_var_result_032421.yml
+backupsudoers.yml   files                            info_search.yml      when_condition_facts_debug2.yml
+copyfile.yml        folderpermissionadjustment.yml   insertextraline.yml  when_condition_facts_debug.yml
+createfolder.yml    folderpermissionownermodify.yml  README.md            when_python_version_match_fact.yml
+delgroup.yml        ghostlist                        replaceline.yml      yum_install_mlocate.yml
+[root@g1 ansible]# more adduser.yml
+- hosts: "{{ nodes }}"
+  remote_user: itadmin
+  become: yes
+  connection: paramiko
+  vars_files:
+    - v1.yml
+  tasks:
+    - name: add user test1
+      user:
+        name: test1
+        home: /var/lib/test1
+        shell: /bin/bash
+        uid: 1101
+        group: test1
+      tags: add_user_test1
+
+    - name: add user test2
+      user:
+        name: test2
+        home: /var/lib/test2
+        shell: /sbin/nologin
+        uid: 1102
+        group: test2
+      tags: add_user_test2
+[root@g1 ansible]#
